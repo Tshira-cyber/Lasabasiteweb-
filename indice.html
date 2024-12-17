@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Professionnel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Page d'accueil -->
+    <header>
+        <div class="intro">
+            <img src="enhanced_image.jpg" alt="Photo professionnelle" class="photo-pro">
+            <h1>Bienvenue sur mon Portfolio</h1>
+            <p>Je suis Mr Lasaba Lakwashim, expert en intelligence artificielle et passionné par l'innovation technologique.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#competences">Informatique ; Pédagogique</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Projet 1 : Analyse des données</h3>
+                <p>Développement d'un modèle prédictif en Python pour l'analyse de grandes bases de données.</p>
+                <img src="projet1.jpg" alt="Projet 1">
+                <a href="https://github.com/votre-projet" target="_blank">Voir sur GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Projet 2 : Application IA</h3>
+                <p>Création d'une application de reconnaissance faciale basée sur des réseaux de neurones.</p>
+                <img src="projet2.jpg" alt="Projet 2">
+                <a href="https://github.com/votre-projet" target="_blank">Voir sur GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences">
+        <h2>Informatique</h2>
+        <ul>
+            <li>Langages : Python, JavaScript, SQL</li>
+            <li>Technologies : TensorFlow, PyTorch, React</li>
+        </ul>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Article 1 : Introduction aux réseaux neuronaux</h3>
+            <p>Une introduction simple et claire aux bases des réseaux neuronaux et leurs applications.</p>
+            <a href="article1.html">Lire l'article</a>
+        </article>
+        <article>
+            <h3>Article 2 : Développement d'une IA avec TensorFlow</h3>
+            <p>Un tutoriel détaillé pour construire une IA en utilisant TensorFlow.</p>
+            <a href="article2.html">Lire l'article</a>
+        </article>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>chiraclasaba8@gmail.com</h2>
+        <form action="envoyer-email.php" method="POST">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+        <p>Retrouvez-moi sur :</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/votre-profil" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/votre-profil" target="_blank">GitHub</a></li>
+            <li><a href="https://twitter.com/votre-profil" target="_blank">Twitter</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2024 Mr Lasaba Lakwashim. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
